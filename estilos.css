@@ -134,55 +134,46 @@ aside#lateral h2#titulosecundario{
     text-align: center;
     text-transform: uppercase;
 }
-figure#imagemlateral{
+.imagemlateral{
     margin-right: 50px;
     margin-left: -2px;
     background-color: bisque;
     position: relative;
+    margin-left: auto;
+    margin-right: auto;
 }
-figure#imagemlateral figcaption{
+.imagemlateral figcaption{
     opacity: 0;
     position:absolute;
-    margin-top: -296px;
-    height: 286px;
-    width: 561px;
+    top: 0px;
+    height: 100%;
+    width: 100%;
     color: white;
     font-size: 20pt;
     text-align: center;
     background-color: rgba(0,0,0,.7);
     font-family: 'Arial Narrow Bold', sans-serif;
-    padding-top: 10px;
 }
-figure#imagemlateral:hover figcaption{
+.imagemlateral img{
+    position: relative;
+    height: 100%;
+    width: 100%;
+}
+
+.imagemlateral:hover figcaption{
     opacity: 1;
 }
-figure.imglegenda{
-   position: relative; 
-}
-figure.imglegenda figcaption{
-    opacity: 0;
-  position: absolute;
-  top:0px;
-  font-size: 20pt;
-  text-align: center;
-  font-family: 'Arial Narrow Bold', sans-serif;
-  color: white;
-  background-color: rgba(0,0,0,.7);
-  width: 1025px;
-  margin-left: -45px;
-  height: 436px;
-  padding-top: 10px;
- }
- figure.imglegenda:hover figcaption{
-opacity: 1;
- }
- figure.imglegenda img{
-    margin-left: -45px;  
- }
+
  table.tabela tr{
      background-color: gray;
      margin: 0px;
      
+ }
+ div#botoes{
+     display: block;
+     right: 20px;
+     position: absolute;
+     top:40px;
  }
  td.espec{
     border: 1px;
