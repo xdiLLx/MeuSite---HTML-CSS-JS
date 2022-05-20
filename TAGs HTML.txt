@@ -1,0 +1,78 @@
+<p> - Setar Paragrafos
+<ul> - Criar lista desordenada
+<ol> - criar lista ordenada
+<li> - Adicionar Item na Lista
+<h1> - Criar titulos
+<div> - Gerar Divisão
+<br>- Quebrar Linha
+<section> - Define um container que representa o corpo da pagina
+<aside> - define um container lateral
+<footer> define um container que será o rodapé da pagina
+<hgroup> Criar container para titulos(h1,h2,h3...)
+<header> Definir Cabeçalho
+<img> - mostrar imagem
+<a> - Criar Ancora
+<a href=> - Criar hipertexto(links)
+<a target=_blank href=> - abre o hyper texto em nova guia
+<nav> - Contaniner para colocar o menu de navegação
+<table> - Serve para definir uma tabela
+<caption>(em tables) - Define o Titulo da tabela
+<tr> - Define uma linha da tabela
+<td> - define as cedulas das linhas - (rowspan - Total de linhas que a cedula vai ocupar)(colspan - Total de Colunas que vai ocupar)
+<span> - Serve para vocÊ filtrar informação dentro de um texto
+<figcaption> - Criar Legenda para fotos
+<figure> Cria um container para a imagem, tornando mais facil mexer no css
+<figcaption : hover> - Mostra uma formatação especifica quando o mouse estiver em cima da imagem
+//DICA PARA IMAGENS - Usar a opção Salvar para web em app como Photoshop para diminuir consideravelmente o tamanho do arquivo sem perder qualidade
+&nbsp; - Serve para deixar um espaço em branco
+//SIMBOLOS QUE PODEM SER UTILIZADOS USANDO & e terminando com ;
+&lt; - Menor que
+&gt; - Maior que
+&le; - Menor ou igual
+&ge; - Maior ou igual
+&pound;- Libras 
+&yen; - Yenis
+&euro;- Euro
+&copy; - Copyright
+&reg;- Marca Registrada
+&trade;- Trade Mark
+&permil;- Permil
+&sum; - Simbolo de Soma
+&infin;- Simbolo de Infinito
+&times; - Simbolo de Multiplicação
+&plusmn;- Mais Menos
+&oplus;- Mais dentro de circunferencia
+&radic;- Raiz Quadrada
+&ne ;- Simbolo de Diferente ou não igual
+&delta;- Delta minusculo
+&Delta;- Delta maiusculo
+&lambda;- simbolo Lambda
+&omega;- simbolo Omega
+&phi;- simbolo de phi
+&larr;- Seta para esquerda
+&rarr;- Seta para direita
+&uarr;- Seta para cima
+&darr ;- Seta para baixo
+&harr ;- Seta para os dois lados
+&spades;- Nipes de cartas (baralho)
+&clubs;- Nipes de cartas (baralho)
+&hearts;-  Nipes de cartas (baralho) 
+&diams;- Nipes de cartas (baralho)
+
+//CSS
+hover:Mostra uma formatação especifica quando o mouse estiver em cima
+padding: espaçamento interno
+margin: espaçamento externo
+transition: temporizador para executar uma ação
+position : Se relative vai movimentar somente no container, se absolute vai ser na pagina toda
+text-transform : deixar o texto ou tudo minusculo ou maiusculo
+display(em listas) : como vai ficar posicionado os textos, lado a lado ou um a baixo do outro
+box-shadow- cria uma sombra em volta do objeto
+float(em section, aside) : define os lados que cada container ficara
+clear: both(obrigatório em footer ) : ajusta a pagina caso o float bugue
+border-spacing(em tabelas) - Serve para tirar ou colocar espaço entre as celulas
+margin-left - se definir como (auto) o navegador centraliza automatico
+margin-right - se definir como (auto) o navegador centraliza automatico
+text-indent - Espaço na primeira linha do paragrafo
+opacity - Define opacidade do objeto
+

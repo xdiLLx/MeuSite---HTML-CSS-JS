@@ -1,0 +1,216 @@
+.cabecalho{
+    background-color: antiquewhite;
+    height: 150px;
+    margin-top: -10px;
+    margin-left: -10px;
+    margin-right: -10px;
+    border-bottom: 1px;
+    border-style: solid;
+    border-color: rgba(0,0,0,.5);
+    
+}
+img#logo{
+    margin-top: 10px;
+    margin-left: 20px;
+    
+}
+img#home{
+    margin-top: 10px;
+    margin-left: 550px;
+    margin-bottom: 35px;
+}
+img#instagram{
+    margin-top: 10px;
+    margin-left: -10px;
+    margin-bottom: 35px;
+}
+img#github{
+    margin-top: 10px;
+    margin-bottom: 35px;
+}
+div#corpopagina{
+    background-color:rgba(0, 0, 0, .1);
+    position: absolute;
+    margin-left: -10px;
+    
+}
+div#cabecalho li{
+    display: inline-block;
+    background-color: bisque;
+    padding: 10px;
+    font-size: 15pt;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 1px;
+}
+div#cabecalho li:hover{
+    display: inline-block;
+    background-color: black;
+    color: white;
+    padding: 10px;
+    font-size: 15pt;
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+div#cabecalho ol{
+    position: absolute;
+    margin-top: -3px;
+    margin-left: 80%;
+    margin-right: 5%;   
+}
+footer#rodape{
+    border-right: 0px;
+    border-left: 0px;
+    border-top: 1px;
+    border-bottom: 0px;  
+    border-color: black;
+    padding: 10px;
+ border-style: solid; 
+clear: both;
+text-align: center;
+background-color: bisque;
+}
+section#corpo{
+ display:block;
+ width: 55%;
+ float: left;
+ padding: 30px;
+ border-right: 1px;
+ border-left: 1px;
+ border-top: 0px;
+ border-bottom: 0px;
+ border-color: black;
+ border-style: solid;
+ margin-left: 5%;
+ box-shadow: 2px 0px 5px rgba(0,0,0,.5);
+ background-color: white;
+}
+aside#lateral{
+    display:block;
+    width: 30%;
+    float: right;
+    margin-right: 3%;
+    border: 1px;
+    border-color: black;
+    padding: 10px;
+ border-style: solid;
+ box-shadow: 2px 5px 5px rgba(0,0,0,.5);
+ background-color: white;
+
+}
+p{
+    text-align: justify;
+    text-indent: 40px;
+    font-size: 14pt;
+}
+h1{
+    font-size: 22pt;
+    font-family: 'Arial Narrow Bold', sans-serif;
+    color: black;
+    text-transform: uppercase;
+    
+}
+div#teste h1{
+    text-align: center;
+    color: white;
+}
+h2{
+  font-size: 20pt;
+  color: rgb(114, 116, 114);
+  
+}
+div#teste{
+    background-color: grey;
+    margin-top: 42px;
+}
+div#tituloartigo{
+    background-color: grey ;
+    height: 35px;
+}
+div#tituloartigo h1{
+    color: white;
+    margin-left: 10px;
+}
+aside#lateral h2#titulosecundario{
+    text-align: center;
+    text-transform: uppercase;
+}
+figure#imagemlateral{
+    margin-right: 50px;
+    margin-left: -2px;
+    background-color: bisque;
+    position: relative;
+}
+figure#imagemlateral figcaption{
+    opacity: 0;
+    position:absolute;
+    margin-top: -296px;
+    height: 286px;
+    width: 561px;
+    color: white;
+    font-size: 20pt;
+    text-align: center;
+    background-color: rgba(0,0,0,.7);
+    font-family: 'Arial Narrow Bold', sans-serif;
+    padding-top: 10px;
+}
+figure#imagemlateral:hover figcaption{
+    opacity: 1;
+}
+figure.imglegenda{
+   position: relative; 
+}
+figure.imglegenda figcaption{
+    opacity: 0;
+  position: absolute;
+  top:0px;
+  font-size: 20pt;
+  text-align: center;
+  font-family: 'Arial Narrow Bold', sans-serif;
+  color: white;
+  background-color: rgba(0,0,0,.7);
+  width: 1025px;
+  margin-left: -45px;
+  height: 436px;
+  padding-top: 10px;
+ }
+ figure.imglegenda:hover figcaption{
+opacity: 1;
+ }
+ figure.imglegenda img{
+    margin-left: -45px;  
+ }
+ table.tabela tr{
+     background-color: gray;
+     margin: 0px;
+     
+ }
+ td.espec{
+    border: 1px;
+    border-style: solid;
+    border-color: black;
+    color: white;
+    font-size: 15pt;
+    
+ }
+ td.especdel{
+    border: 1px;
+    border-style: solid;
+    border-color: black;
+    color: black;
+    font-size: 15pt;
+    background-color: white;
+    padding: 5px;
+ }
+ table.tabela caption{
+     font-size: 18pt;
+     text-transform: uppercase;
+ }
+ table.tabela {
+     border-spacing: 1px;
+     margin-left: auto;
+     margin-right: auto;
+ }
+ a.links{
+     text-decoration-line: none;
+     color:black;
+ }
