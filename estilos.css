@@ -1,5 +1,5 @@
 .cabecalho{
-    background-color: antiquewhite;
+    background:url(Imagens/fundocabecalho.jpg);
     height: 150px;
     margin-top: -10px;
     margin-left: -10px;
@@ -171,9 +171,9 @@ aside#lateral h2#titulosecundario{
  }
  div#botoes{
      display: block;
-     right: 20px;
+     right: 40px;
      position: absolute;
-     top:40px;
+     top:50px;
  }
  td.espec{
     border: 1px;
