@@ -11,6 +11,7 @@
 <hgroup> Criar container para titulos(h1,h2,h3...)
 <header> Definir Cabeçalho
 <img> - mostrar imagem
+<iframe>-Serve para abrir outro arquivo html na mesma pagina
 <a> - Criar Ancora
 <a href=> - Criar hipertexto(links)
 <a target=_blank href=> - abre o hyper texto em nova guia
@@ -23,6 +24,9 @@
 <figcaption> - Criar Legenda para fotos
 <figure> Cria um container para a imagem, tornando mais facil mexer no css
 <figcaption : hover> - Mostra uma formatação especifica quando o mouse estiver em cima da imagem
+<map name=> serve para criar um mapa na imagem
+<img usemap= #>serve para selecionar qual mapa vai ser utilizado
+<area> - obrigatorio em maps, e sempre acompanhado da propriedade shape que defini o tipo de area, e coords, que define as coordenadas
 //DICA PARA IMAGENS - Usar a opção Salvar para web em app como Photoshop para diminuir consideravelmente o tamanho do arquivo sem perder qualidade
 &nbsp; - Serve para deixar um espaço em branco
 //SIMBOLOS QUE PODEM SER UTILIZADOS USANDO & e terminando com ;
@@ -75,4 +79,7 @@ margin-left - se definir como (auto) o navegador centraliza automatico
 margin-right - se definir como (auto) o navegador centraliza automatico
 text-indent - Espaço na primeira linha do paragrafo
 opacity - Define opacidade do objeto
+overflow(Em iframes) - Serve para impedir a rolagem do documento
+::-webkit-scrollbar - seleciona a barra de scroll do documento
+
 
