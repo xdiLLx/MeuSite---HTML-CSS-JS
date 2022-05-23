@@ -28,11 +28,18 @@ img#github{
     margin-top: 10px;
     margin-bottom: 35px;
 }
+
 div#corpopagina{
     background-color:rgba(0, 0, 0, .1);
     position: absolute;
     margin-left: -10px;
     
+}
+iframe#videoplay{
+    opacity: 1;
+    position: relative;
+    width: 100%;
+    height: 500px;
 }
 div#cabecalho li{
     display: inline-block;
@@ -41,6 +48,11 @@ div#cabecalho li{
     font-size: 15pt;
     font-family: Arial, Helvetica, sans-serif;
     margin: 1px;
+}
+video#video{
+    position: relative;
+    width: 100%;
+
 }
 div#cabecalho li:hover{
     display: inline-block;
@@ -84,6 +96,12 @@ section#corpo{
  box-shadow: 2px 0px 5px rgba(0,0,0,.5);
  background-color: white;
 }
+h1#musica{
+    background-color: gray;
+    text-align: center;
+    color: white;
+    text-transform: uppercase;
+}
 aside#lateral{
     display:block;
     width: 30%;
@@ -96,6 +114,13 @@ aside#lateral{
  box-shadow: 2px 5px 5px rgba(0,0,0,.5);
  background-color: white;
 
+}
+audio#musicas{
+   border: 1px; 
+   border-style: solid;
+   border-color: black;
+   width: 100%;
+   box-shadow: 1,5,5 black;
 }
 p{
     text-align: justify;

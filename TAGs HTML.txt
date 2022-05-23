@@ -5,11 +5,21 @@
 <h1> - Criar titulos
 <div> - Gerar Divisão
 <br>- Quebrar Linha
+<fieldset> - cria um container para forms
+<legend> - cria uma legendapara os fieldset
+<audio>- para adicionar audios no seu html(colocar controls= controls para funcionar)
+<source> - para localizar a multimidia na pasta do projeto(colocar type= audio\mpeg)
+<video> - para adicionar videos
 <section> - Define um container que representa o corpo da pagina
 <aside> - define um container lateral
 <footer> define um container que será o rodapé da pagina
 <hgroup> Criar container para titulos(h1,h2,h3...)
 <header> Definir Cabeçalho
+<select> - Cria um compo box
+<option> - adiciona opcao no combo box
+<optgroup> serve para agrupar as opcoes do combobox
+<textarea> - criar um campo memo
+<datalist> - serve para adicionarmos <options value> e vincular com um input gerando assim um auto complete na hora da digitacao
 <img> - mostrar imagem
 <iframe>-Serve para abrir outro arquivo html na mesma pagina
 <a> - Criar Ancora
